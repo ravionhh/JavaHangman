@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CategoryActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/title"
+        android:textSize="46sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/carsButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:text="@string/cat_cars"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/brandsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <Button
+        android:id="@+id/animalsButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:text="@string/cat_animals"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/carsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.88" />
+
+    <Button
+        android:id="@+id/moviesButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:text="@string/cat_movies"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toTopOf="@+id/animalsButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <Button
+        android:id="@+id/foodsButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:text="@string/cat_foods"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/brandsButton"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <Button
+        android:id="@+id/brandsButton"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="@drawable/circle"
+        android:text="@string/cat_brands"
+        android:textSize="36sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.582" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

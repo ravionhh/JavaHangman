@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Hangman</string>
+    <string name="title">HANGMAN</string>
+    <string name="category">Categories</string>
+    <string name="cat_movies">Movies</string>
+    <string name="cat_brands">Brands</string>
+    <string name="cat_foods">Foods</string>
+    <string name="cat_animals">Animals</string>
+    <string name="cat_cars">Cars</string>
+    <string name="play_text">PLAY</string>
+    <string name="lost">YOU LOST!!!</string>
+    <string name="win">YOU WIN!!!</string>
+    <string name="start_new_game">START NEW GAME</string>
+    <string name="display_a">A</string>
+    <string name="display_b">B</string>
+    <string name="display_c">C</string>
+    <string name="display_d">D</string>
+    <string name="display_e">E</string>
+    <string name="display_f">F</string>
+    <string name="display_g">G</string>
+    <string name="display_h">H</string>
+    <string name="display_i">I</string>
+    <string name="display_j">J</string>
+    <string name="display_k">K</string>
+    <string name="display_l">L</string>
+    <string name="display_m">M</string>
+    <string name="display_n">N</string>
+    <string name="display_o">O</string>
+    <string name="display_p">P</string>
+    <string name="display_q">Q</string>
+    <string name="display_r">R</string>
+    <string name="display_s">S</string>
+    <string name="display_t">T</string>
+    <string name="display_u">U</string>
+    <string name="display_v">V</string>
+    <string name="display_w">W</string>
+    <string name="display_x">X</string>
+    <string name="display_y">Y</string>
+    <string name="display_z">Z</string>
+
+
+</resources>
